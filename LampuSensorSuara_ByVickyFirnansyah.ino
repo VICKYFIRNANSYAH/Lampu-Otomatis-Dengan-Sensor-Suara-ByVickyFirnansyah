@@ -2,8 +2,8 @@
 //BY MUHAMMAD VICKY FIRNANSYAH 
 //https://github.com/VICKYFIRNANSYAH
 
-int pinSensor = A5;
-const int Relay = 7;
+int pinSensor = A0;
+const int Relay = 2;
 int nilaiSensor = 0;
  
 void setup(){
