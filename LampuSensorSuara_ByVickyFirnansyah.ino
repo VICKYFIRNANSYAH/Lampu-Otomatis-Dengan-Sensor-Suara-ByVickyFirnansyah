@@ -18,12 +18,12 @@ nilaiSensor = analogRead(pinSensor);
 Serial.print ("Sensor = "); 
 Serial.println(nilaiSensor);
 
-if (nilaiSensor > 522){
+if (nilaiSensor > 100){
  delay(150);
  while(true){
   digitalWrite(Relay, LOW);
   nilaiSensor = analogRead(pinSensor);
- if(nilaiSensor > 522){break;}
+ if(nilaiSensor > 100){break;}
  }
  delay(150); 
 }
